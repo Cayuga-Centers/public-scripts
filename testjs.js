@@ -1,3 +1,3 @@
-const testAlert = (message) => {
-	alert(message);
+const ping = () => {
+	console.log('pong');
 };
