@@ -1,6 +1,7 @@
 //// varFactory Code - v6.1 ////
 
 //// Start loading time ////
+const varFactoryExec = (function () {
 const dateNow = new Date();
 let factoryStart = dateNow;
     factoryStart = factoryStart.getTime();
@@ -278,3 +279,4 @@ let factoryTime = factoryEnd - factoryStart;
 Cayuga.throw('info', `varFactory loaded in ${factoryTime / 1000} seconds...`, null, '~~~~');
 
 //// End of varFactory ////
+})();
