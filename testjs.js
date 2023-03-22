@@ -1,3 +1,3 @@
 ping = () => {
-	console.log('pong');
+	console.log('%cpong', 'color: limegreen');
 };
