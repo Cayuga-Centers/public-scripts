@@ -1,3 +1,5 @@
-testAlert = function (message) {
+const testAlert = (message) => {
 	alert(message);
-}
+};
+
+export {testAlert};
