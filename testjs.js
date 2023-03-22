@@ -1,3 +1,3 @@
-const ping = () => {
+ping = () => {
 	console.log('pong');
 };
